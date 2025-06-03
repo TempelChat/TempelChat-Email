@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>New Message Notification</title>
+</head>
+<body style="margin:0; padding:0; font-family: Arial, sans-serif; background-color:#f4f4f4;">
+  <table role="presentation" width="100%" style="padding: 20px 0;">
+    <tr><td align="center">
+      <table role="presentation" width="600" style="background:#fff; border-radius:8px; padding:30px;">
+        <tr><td>
+          <h2 style="color:#4CAF50;">New Message Notification</h2>
+          <p>Hi <strong>{{user_name}}</strong>,</p>
+          <p>You have a new message from <strong>{{sender_name}}</strong>:</p>
+          <blockquote style="margin:10px 0; padding:10px 20px; background:#f0f0f0; border-left:5px solid #4CAF50;">{{message_excerpt}}</blockquote>
+          <p><a href="https://tempelchat.github.io/{{chat_id}}" style="background:#4CAF50; color:#fff; padding:12px 25px; text-decoration:none; border-radius:5px; font-weight:bold;">View Message</a></p>
+          <p style="color:#666;">Don’t leave them hanging!<br/>— TempelChat Notifications</p>
+        </td></tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>
